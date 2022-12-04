@@ -1,0 +1,25 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+}
+
+img{
+    margin: 0 auto;
+}
+h1{
+    color: #fffcf9;;
+}
+
+p{
+    color: #b3b3b3;
+}
+
+button{
+    background: #e9e6e3;
+}
