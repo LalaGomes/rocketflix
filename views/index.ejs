@@ -5,12 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap'); </style>
-  <link rel="stylesheet" href="/public/styles.css">
-  <link rel="shortcut icon" href="./template/assets/favico/favicon.ico" type="image/x-icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+  </style>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="/template/assets/favico/favicon.ico" type="image/x-icon">
   <title>Rocketflix</title>
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="api.js" defer></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+  <script src="/api.js" defer></script>
 </head>
 
 <body>
@@ -18,15 +20,18 @@
     <label for="nome">Nome:</label>
     <input type="text" name="nome">
   </form> -->
-  <img src="./template/assets/favico/android-chrome-192x192.png" alt="">
+ <main id="cube">
+
+  <img src="/template/assets/favico/android-chrome-192x192.png" alt="">
   <h1>Não sabe o que assistir?</h1>
-  <button type="submit" id="buscar" > Encontrar Filme</button>
+  <button type="submit" id="buscar"> Encontrar Filme</button>
   <p>Clique em "Encontrar filme" que traremos informações
     de algum filme para você assistir hoje.</p>
 
-    <div id="filme">
+  <div id="filme">
 
-    </div>
+  </div>
+</main>
 </body>
 
 

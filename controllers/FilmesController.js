@@ -1,0 +1,8 @@
+const FilmesController = {
+    index: (req,res)=>{
+        res.render('index.ejs')
+    }
+}
+
+
+module.exports = FilmesController;

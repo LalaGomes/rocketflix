@@ -1,18 +1,19 @@
-const cors = require('cors');
+// const cors = require('cors');
 const express = require('express');
+const path = require('path');
 const app = express();
-const axios = require('axios');
+// const axios = require('axios');
 
-app.use(express.json())
+const FilmesRouter = require('./routers/FilmesRouter');
 
-app.use(cors());
+app.use(express.json());
 
-// app.get('/', (req, res)=>{
+app.set('view engine','ejs');
 
-//     // const response = await axios('htps://localhots:3000')
+app.use(express.static(path.join(__dirname, 'public')));
 
-//     return res.json()
-// })
+app.use('/', FilmesRouter);
 
 
-app.listen('3000')
+
+app.listen(3000)
