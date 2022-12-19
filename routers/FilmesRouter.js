@@ -6,6 +6,8 @@ const router = express.Router();
 
 router.get('/', FilmesController.index);
 
+router.get('/filme', FilmesController.filme)
+
 
 // router.get('/filmes/:id', FilmesController.buscarPorId);
 

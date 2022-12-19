@@ -18,20 +18,41 @@
 }
 
 #buscar {
-    font-size: 20px;
+    position: center;
+    width: 180.98px;
+    height: 47px;
+    left: 661px;
+    top: 628px;
+      
+    border-radius: 5px;
 }
 
 button {
     background: #e9e6e3;
+    font-size: 16px;
+    justify-content: center;
 }
 
+#arrow{
+  
+    width: 35.56px;
+    height: 25.29px;
+    left: 674.44px;
+    top: 639.06px;
+ 
+}
 img {
     margin: 0 auto;
 }
 
 h1 {
-    color: #fffcf9;
-    ;
+    color: #fff;
+    position: center;
+    width: 533px;
+    height: 123px;
+    left: 485px;
+    top: 126px;
+
 }
 
 p {
