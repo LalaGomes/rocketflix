@@ -1,0 +1,225 @@
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --bg-button-hover: #ffffff;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+
+    background: var(--background);
+    color: var(--title);
+
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin: 5rem .8rem 3.038rem;
+}
+
+.logo {
+    width: 8.724rem;
+    margin: 0 auto 2.007rem;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 6rem;
+}
+
+#film {
+    margin: 0 2.95rem 3rem;
+    text-align: center;
+}
+
+.film-poster {
+    width: 17.1rem;
+    margin-bottom: 1rem;
+}
+
+.film-title {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+
+    margin-bottom: 1.929rem;
+}
+
+#error-message {
+    display: flex;
+    align-items: center;
+}
+
+.film-description,
+.film-popularity {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.film-popularity {
+    margin-bottom: 1.985rem;
+}
+
+.find-movie {
+    margin-bottom: 10.3rem;
+}
+
+#change-movie {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+
+    padding: 1.0855rem 1.521rem;
+    margin: 0 auto 2.6rem;
+
+    background: var(--bg-button);
+    border: 2px solid #1A1A1A;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+#change-movie:hover {
+    background: var(--bg-button-hover);
+}
+
+#change-movie svg {
+    width: 3.556rem;
+    border-radius: 5px;
+}
+
+#change-movie p {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+
+    color: #000000;
+}
+
+.find-movie p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+@media (min-width: 768px) {
+    header {
+        margin-top: 12.6rem;
+    }
+
+    .logo {
+        margin-bottom: 1.007rem;
+    }
+
+    #film {
+        display: flex;
+        gap: 3.4rem;
+
+        max-width: 62.8rem;
+        max-height: 31.9rem;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        text-align: left;
+    }
+
+    .film-poster {
+        margin-top: 1.2rem;
+    }
+
+    .film-popularity {
+        margin-bottom: auto;
+    }
+
+    .find-movie {
+        margin-bottom: 19.7rem;
+    }
+
+    .find-movie p {
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+    }
+}
+/* * {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+#cube {
+    display: grid;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+#buscar {
+    position: center;
+    width: 180.98px;
+    height: 47px;
+    left: 661px;
+    top: 628px;
+      
+    border-radius: 5px;
+}
+
+button {
+    background: #e9e6e3;
+    font-size: 16px;
+    justify-content: center;
+}
+
+#arrow{
+  
+    width: 35.56px;
+    height: 25.29px;
+    left: 674.44px;
+    top: 639.06px;
+ 
+}
+img {
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    position: center;
+    width: 533px;
+    height: 123px;
+    left: 485px;
+    top: 126px;
+
+}
+
+p {
+    color: #b3b3b3;
+} */
